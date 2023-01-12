@@ -1,10 +1,10 @@
+
 /* 
  * File:   main.cpp
  * Author: donis
- * Created on January 11, 2023, 10:41 PM
- * Purpose: To find the Sum of Two Numbers
- *          and store the sum of these two 
- *          numbers in a variable named total
+ *
+ * Created on January 11, 2023, 3:43 PM
+ * Purpose: Template to be used for all future hmwk, Labs, Exams, Projects
  */
 
 //System Libraries
@@ -19,14 +19,20 @@ using namespace std;
 //Function Prototypes
 
 //Execution begins here at main
-int main ()
+int main()
 {
-    int total= 50 + 100;
-    //total = 150
+int payAmount; 
+int payPeriods; 
+int annualPay;
+
+payAmount=2200.0;
+payPeriods= 26;
+annualPay= payAmount * payPeriods;
     
-    //Initialize Variables
-    cout<<"The sum is" <<endl;
-    cout<< total <<endl;
+    //Display Inputs/Outputs
+    cout<<"The total annualPay is" << annualPay <<endl;
+            
+    //Clean up memory and files
     
     //Exit the Program
     return 0;
